@@ -28,12 +28,12 @@ yarn-error.log*
 *.sln
 *.sw?
 
-# Raw materials, scratch files, and legacy non-Vite assets
-legacy/
-css/
-js/
-projects/
-Project/
-image Him/
-extracted_report.txt
-promt
+# Raw materials, scratch files, and legacy non-Vite assets at root
+/legacy/
+/css/
+/js/
+/projects/
+/Project/
+/image Him/
+/extracted_report.txt
+/promt
