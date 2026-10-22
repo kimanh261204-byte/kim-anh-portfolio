@@ -74,7 +74,7 @@ export default function ContentWorkspacePage() {
           <div className="flex justify-between items-end mb-4">
             <div>
               <div className="text-label text-[var(--text-3)]">
-                {lang === 'vi' ? 'Minh chứng Hình ảnh 1 — Workspace Dashboard' : 'Visual Proof 1 — Workspace Dashboard'}
+                {lang === 'vi' ? 'Minh chứng Hình ảnh — Workspace Dashboard' : 'Visual Proof — Workspace Dashboard'}
               </div>
               <h3 className="font-display font-bold text-lg text-[var(--text-1)]">
                 {lang === 'vi' ? 'Dashboard Tổng hợp 30 bài Content, Ảnh & Carousel của AIKING' : 'AIKING Content Creation Workspace Dashboard'}
@@ -125,35 +125,7 @@ export default function ContentWorkspacePage() {
           </div>
         </section>
 
-        {/* Feature Visual 2: ContentAI Pro */}
-        <div className="py-12 lg:py-16 border-t border-[var(--border)]">
-          <div className="flex justify-between items-end mb-4">
-            <div>
-              <div className="text-label text-[var(--text-3)]">
-                {lang === 'vi' ? 'Minh chứng Hình ảnh 2 — Web App Đã Host' : 'Visual Proof 2 — Live Hosted Web App'}
-              </div>
-              <h3 className="font-display font-bold text-lg text-[var(--text-1)]">
-                ContentAI Pro — {lang === 'vi' ? 'Ứng dụng tạo nội dung AI trên GitHub Pages' : 'AI Copywriting App Hosted on GitHub Pages'}
-              </h3>
-            </div>
-            <span className="text-xs font-semibold text-[var(--accent-dark)] bg-[rgba(47,102,0,0.1)] px-3 py-1 rounded-sm">
-              Live on GitHub Pages
-            </span>
-          </div>
 
-          <div className="rounded-sm overflow-hidden border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm max-w-[800px]">
-            <img
-              src="/projects/aiking_media/image9.png"
-              alt="ContentAI Pro Hosted on GitHub Pages"
-              className="w-full h-auto object-cover"
-            />
-          </div>
-          <p className="text-xs text-[var(--text-3)] mt-3">
-            {lang === 'vi'
-              ? 'Hình 9 trong Báo cáo thực tập: Minh chứng ứng dụng ContentAI Pro do Kim Anh xây dựng toàn bộ (HTML/CSS/JS kết nối Gemini API), đã được host thành công trên GitHub Pages.'
-              : 'Figure 9 from Internship Report: Proof of ContentAI Pro built end-to-end by Kim Anh (HTML/CSS/JS with Gemini API), successfully hosted on GitHub Pages.'}
-          </p>
-        </div>
 
         {/* 6 Modules of ContentAI Pro */}
         <section className="border-t border-[var(--border)] py-12 lg:py-16">
