@@ -90,42 +90,12 @@ export default function PhotoClassifierPage() {
           </p>
         </div>
 
-        {/* Feature Visual 2: XnConvert Batch Watermarking */}
+        {/* Feature Visual 2: AIKING Discord Community */}
         <div className="py-12 lg:py-16 border-t border-[var(--border)]">
           <div className="flex justify-between items-end mb-4">
             <div>
               <div className="text-label text-[var(--text-3)]">
-                {lang === 'vi' ? 'Minh chứng Hình ảnh 2 — Xử lý Logo Hàng loạt' : 'Visual Proof 2 — Batch Watermarking'}
-              </div>
-              <h3 className="font-display font-bold text-lg text-[var(--text-1)]">
-                {lang === 'vi' ? 'Quy trình xử lý ảnh hàng loạt bằng XnConvert' : 'XnConvert Batch Photo & Logo Automation'}
-              </h3>
-            </div>
-            <span className="text-xs font-semibold text-[var(--accent-dark)] bg-[rgba(47,102,0,0.1)] px-3 py-1 rounded-sm">
-              Đã kiểm duyệt đạt chuẩn
-            </span>
-          </div>
-
-          <div className="rounded-sm overflow-hidden border border-[var(--border)] bg-[var(--bg-surface)] shadow-sm">
-            <img
-              src="/projects/aiking_media/image11.png"
-              alt="XnConvert Batch Logo Processing"
-              className="w-full h-auto object-cover"
-            />
-          </div>
-          <p className="text-xs text-[var(--text-3)] mt-3">
-            {lang === 'vi'
-              ? 'Hình 11 trong Báo cáo thực tập: Nghiên cứu, cấu hình và chuẩn hóa quy trình chèn logo AIKING hàng loạt trên toàn bộ source ảnh Training Agency của công ty.'
-              : 'Figure 11 from Internship Report: Configured batch logo watermarking for company training photos.'}
-          </p>
-        </div>
-
-        {/* Feature Visual 3: AIKING Discord Community */}
-        <div className="py-12 lg:py-16 border-t border-[var(--border)]">
-          <div className="flex justify-between items-end mb-4">
-            <div>
-              <div className="text-label text-[var(--text-3)]">
-                {lang === 'vi' ? 'Minh chứng Hình ảnh 3 — Hạ tầng Cộng đồng' : 'Visual Proof 3 — Community Infrastructure'}
+                {lang === 'vi' ? 'Minh chứng Hình ảnh 2 — Hạ tầng Cộng đồng' : 'Visual Proof 2 — Community Infrastructure'}
               </div>
               <h3 className="font-display font-bold text-lg text-[var(--text-1)]">
                 {lang === 'vi' ? 'Discord "AIKING – Cộng đồng AI Thực Chiến"' : 'AIKING Real-world AI Discord Community'}
