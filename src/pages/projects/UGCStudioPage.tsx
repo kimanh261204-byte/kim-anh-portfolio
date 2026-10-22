@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import PageLayout from '../../components/layout/PageLayout'
 import SectionLabel from '../../components/ui/SectionLabel'
-import MediaPlaceholder from '../../components/ui/MediaPlaceholder'
 import NextProject from '../../components/project/NextProject'
 import { projects } from '../../data/projects'
 import { useLanguage } from '../../contexts/LanguageContext'
@@ -208,17 +207,6 @@ export default function UGCStudioPage() {
                 <p className="text-sm text-[var(--text-2)] leading-relaxed">{item.desc}</p>
               </div>
             ))}
-          </div>
-        </section>
-
-        {/* Visual Breakdown */}
-        <section className="border-t border-[var(--border)] py-12 lg:py-16">
-          <SectionLabel>{lang === 'vi' ? 'Phân tích trực quan' : 'Visual Breakdown'}</SectionLabel>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-            <MediaPlaceholder label={lang === 'vi' ? '[ẢNH SẢN PHẨM ĐẦU VÀO]' : '[ADD PRODUCT INPUT IMAGE]'} ratio="4/3" />
-            <MediaPlaceholder label={lang === 'vi' ? '[BẢNG STORYBOARD]' : '[ADD STORYBOARD]'} ratio="4/3" />
-            <MediaPlaceholder label={lang === 'vi' ? '[ẢNH CẢNH TẠO SINH TỪ AI]' : '[ADD SCENE GENERATION SCREENSHOT]'} ratio="4/3" />
-            <MediaPlaceholder label={lang === 'vi' ? '[ẢNH HỆ THỐNG PROMPT]' : '[ADD PROMPT ARCHITECTURE SCREENSHOT]'} ratio="4/3" />
           </div>
         </section>
 

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import PageLayout from '../../components/layout/PageLayout'
 import SectionLabel from '../../components/ui/SectionLabel'
-import MediaPlaceholder from '../../components/ui/MediaPlaceholder'
 import NextProject from '../../components/project/NextProject'
 import { projects } from '../../data/projects'
 import { motion } from 'framer-motion'
